@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><title>PioLanka Holidays</title><meta http-equiv="refresh" content="0; url=/pio-lanka-demo/en/"><link rel="canonical" href="/pio-lanka-demo/en/"><script>(function(){const base = "/pio-lanka-demo/";
+
+      var supported = ['en', 'si', 'ta', 'fr', 'de', 'nl', 'es', 'zh', 'ja', 'ko'];
+      var pick = 'en';
+      try {
+        var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language];
+        for (var i = 0; i < langs.length; i++) {
+          var code = String(langs[i]).toLowerCase().split('-')[0];
+          if (supported.indexOf(code) > -1) { pick = code; break; }
+        }
+      } catch (e) {}
+      location.replace(base + pick + '/' + location.hash);
+    })();</script></head> <body><a href="/pio-lanka-demo/en/">Continue</a></body></html>

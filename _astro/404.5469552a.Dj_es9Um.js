@@ -1,0 +1,1 @@
+const n="not-found-module-main-6u-Xs",o="not-found-module-inner-lYjmo",t="not-found-module-h1-py0WI",d="not-found-module-body-iZWi-",s="not-found-module-btn-5vo3t",u={main:n,inner:o,h1:t,body:d,btn:s};export{u as s};

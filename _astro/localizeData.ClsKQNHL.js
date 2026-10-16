@@ -1,0 +1,1 @@
+function o(r,f){if(f==null)return r;if(typeof r=="string")return typeof f=="string"&&f?f:r;if(Array.isArray(r))return Array.isArray(f)?r.map((e,u)=>o(e,f[u])):r;if(r&&typeof r=="object"){if(typeof f!="object")return r;const e={...r};for(const u of Object.keys(e)){const y=f[u];y!==void 0&&(e[u]=o(e[u],y))}return e}return r}export{o as m};
